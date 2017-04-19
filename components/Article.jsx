@@ -15,7 +15,7 @@ class Article extends React.Component {
           <p>{description}</p>
         </div>
         <div className="article-read">
-          <Link to={prefixLink(`${path}`)}>Read</Link>
+          <Link to={prefixLink(`${path}`)}>Listen</Link>
         </div>
       </div>
     );

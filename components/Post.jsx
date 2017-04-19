@@ -27,7 +27,7 @@ class Post extends React.Component {
       <div>
         <div className="post">
           <div className="post-container">
-            <Link to={prefixLink('/articles/')}>
+            <Link to={prefixLink('/speakers/')}>
               <div className="logo fixed">
                 <div className="logo-outerCircle">
                   <div className="logo-outerCircle-triangle">
