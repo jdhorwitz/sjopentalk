@@ -13,7 +13,7 @@ class ArticlesList extends React.Component {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
       css.color = '#fff';
-      css.backgroundColor = '#4938aa';
+      css.backgroundColor = 'darkslategrey';
     }
   }
   componentWillUnmount() {
@@ -21,7 +21,7 @@ class ArticlesList extends React.Component {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
       css.color = '#fff';
-      css.backgroundColor = '#2b4496';
+      css.backgroundColor = 'darkslategrey';
     }
   }
   renderPosts(route) {
